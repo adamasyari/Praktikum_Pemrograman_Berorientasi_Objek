@@ -8,9 +8,6 @@ public class Sepatu extends Barang{
     public int getShoeSize(){
         return shoeSize;
     }
-    public void setStock(int stock){
-        
-    }
     @Override
     public void reduceStock(int amount){
         if(getStock() >= amount){

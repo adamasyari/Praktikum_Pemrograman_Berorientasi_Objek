@@ -8,9 +8,6 @@ public class Baju extends Barang{
     public String getSize(){
         return size;
     }
-    public void setStock(int stock){
-        
-    }
     @Override
     public void reduceStock(int amount){
         if(getStock() >= amount){
