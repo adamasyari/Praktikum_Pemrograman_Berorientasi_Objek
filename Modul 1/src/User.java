@@ -17,9 +17,9 @@ public class User {
     public void isiSaldo(double jumlah){
         if(jumlah >= 50000){
             saldo += jumlah;
-            System.out.println(getName() + " Saldo berhasil diisi sebesar Rp." + saldo);
+            System.out.println(getName() + " Saldo berhasil diisi sebesar Rp." + saldo + "\n");
         } else {
-            System.out.println(getName() + " Pengisian saldo gagal. Jumlah minimal pangisian saldo adalah Rp50,000");
+            System.out.println(getName() + " Pengisian saldo gagal. Jumlah minimal pangisian saldo adalah Rp50,000\n");
         }
     }
     public void minSaldo(double jumlah){
