@@ -1,5 +1,5 @@
 public class Monster extends Entity implements Behavior{
-    private int count = 0;
+    int count = 0;
 
     public Monster(String name, int health, int attack, int defence){
         this.name = name;
